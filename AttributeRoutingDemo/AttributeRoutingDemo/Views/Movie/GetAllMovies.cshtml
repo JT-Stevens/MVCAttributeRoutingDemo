@@ -1,0 +1,47 @@
+﻿@model IEnumerable<AttributeRoutingDemo.Models.Movie>
+
+@{
+    ViewBag.Title = "Movie Page!";
+}
+
+<br />
+<br />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MovieTitle)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieTitle)
+            </td>
+            <td>
+
+                @Html.ActionLink("Movie Details", "GetMoviebyId", new { movieID = item.MovieID }) |
+                @Html.ActionLink("See Actors", "GetMovieActors", new { movieID = item.MovieID })
+
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+
+@*<h2>Home!</h2>
+
+
+    @Html.ActionLink("See Movies!", "", null, new { @class="btn btn-success" })
+
+    @using (Html.BeginForm("GetAllActors", "Movie"))
+    {
+        <input type="submit" value="See Actors!" id="btnSubmit" />
+    }*@
+
+
+

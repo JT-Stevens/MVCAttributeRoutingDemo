@@ -1,0 +1,36 @@
+﻿@model AttributeRoutingDemo.Models.Actor
+
+@{
+    ViewBag.Title = Model.FirstName + " " + Model.LastName;
+}
+
+    <h2>@Model.FirstName @Model.LastName</h2>
+
+<div>
+    <h4>Actor</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <br />
+        <dt>
+            @Html.ActionLink("See Movies", "GetActorMovies", new { actorID = Model.ActorID })
+        </dt>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "GetAllActors")
+</p>

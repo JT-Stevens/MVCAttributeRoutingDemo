@@ -13,11 +13,15 @@ namespace AttributeRoutingDemo
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            //Enabling attribute routing 
+            routes.MapMvcAttributeRoutes();
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Movie", action = "GetAllMovies", id = UrlParameter.Optional }
             );
+
         }
     }
 }

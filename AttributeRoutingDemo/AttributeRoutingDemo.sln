@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeRoutingDemo", "AttributeRoutingDemo\AttributeRoutingDemo.csproj", "{37180DB5-8E09-4C57-811A-4A68A894DD59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeRoutingDemo", "AttributeRoutingDemo\AttributeRoutingDemo.csproj", "{4DB7AFB8-ADC7-4824-B782-4297310F0D92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{37180DB5-8E09-4C57-811A-4A68A894DD59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37180DB5-8E09-4C57-811A-4A68A894DD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37180DB5-8E09-4C57-811A-4A68A894DD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37180DB5-8E09-4C57-811A-4A68A894DD59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB7AFB8-ADC7-4824-B782-4297310F0D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB7AFB8-ADC7-4824-B782-4297310F0D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB7AFB8-ADC7-4824-B782-4297310F0D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB7AFB8-ADC7-4824-B782-4297310F0D92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4C864F49-EDCA-468A-B861-0EAD0A0EFED8}
+		SolutionGuid = {1B99B1C2-1AF3-4C5F-B30F-5C97D3BE1D7B}
 	EndGlobalSection
 EndGlobal
